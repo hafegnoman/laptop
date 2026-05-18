@@ -9,9 +9,10 @@ header {
     text-align: center;
     display: flex;
     text-align: left;
+    border-sha
 }
 .menu {
-    margin-left: 400px;
+    margin-left: auto;
     display: flex;
     justify-content: center;
     
@@ -25,7 +26,7 @@ header {
     padding: 5px 10px;
     border-radius: 10px;
 }
-/* .banner {
+.banner {
     background-color: #353b48;
     padding: 20px;
     text-align: center;
@@ -38,17 +39,22 @@ header {
 }
 .shadow {
     text-shadow: 2px 2px 4px whitesmoke;
-} */
-/* .main-box {
+} 
+.main-box {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 200px;
-    width: 1200px;
+    justify-content: center;
+    
+    height: auto;
+    width: auto;
+    margin: 3%;
     background-color: #353b48;
-    margin: 15px 15px;
+    padding: 20px;
 }
 .boxposition {
     padding: 15px;
-    margin: 10%;
-} */
+} 
+.boxposition p {
+    color: #000000;
+    font-size: 18px;
+    text-align: justify;
+}
