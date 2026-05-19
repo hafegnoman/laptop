@@ -50,6 +50,16 @@ header {
     background-color: #353b48;
     padding: 20px;
 }
+.left-box {
+    width: 50%;
+    padding: 20px;
+    background-color: #c7ecee;
+}
+.right-box {
+    width: 50%;
+    padding: 20px;
+    background-color: #95afc0;
+}
 .boxposition {
     padding: 15px;
 } 
@@ -57,4 +67,28 @@ header {
     color: #000000;
     font-size: 18px;
     text-align: justify;
+}
+.form-box {
+    background-color: #6ab04c;
+    padding: 20px;
+    margin: 1% 0 0 0;
+}
+.submit-btn {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: #2f3640;
+    border: #2f3640 solid 1px;
+    transition: 200ms;
+}
+footer {
+    background-color: #7f8fa6;
+    padding: 15px;
+    text-align: center;
+    color: #000000;
 }
